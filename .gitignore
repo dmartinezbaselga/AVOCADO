@@ -1,0 +1,34 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Python & Cython-generated files
+*.egg-info/
+__pycache__/
+build/
+dist/
+*.pdf
+*.mp4
+*.db
+intrinsic-rewards-navigation/
+intelligent-robot-simulator/
+rl_rvo_nav/
+real-world-data/
+final_real/
+images/
+videos/
+data*
+optitrack_visualizer.py
+plot_optimizations.py
+plot_scenarios.py
+real_world_visualizer.py
