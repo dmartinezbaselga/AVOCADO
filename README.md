@@ -62,15 +62,16 @@ To run the baselines, install [RL-RVO](https://github.com/hanruihua/rl_rvo_nav) 
 If you use this work in your own research or wish to refer to the paper's results, please use the following BibTeX entries.
 
 ```bibtex
-@misc{martinez2024avocado,
-      title={AVOCADO: Adaptive Optimal Collision Avoidance driven by Opinion}, 
-      author={Martinez-Baselga, Diego and Sebasti{\'a}n, Eduardo and Montijano, Eduardo and Riazuelo, Luis and Sag{\"u}{\'e}s, Carlos and Montano, Luis},
-      year={2024},
-      eprint={2407.00507},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2407.00507}, 
-}
+@ARTICLE{martinez2025avocado,
+  author={Martinez-Baselga, Diego and Sebastián, Eduardo and Montijano, Eduardo and Riazuelo, Luis and Sagüés, Carlos and Montano, Luis},
+  journal={IEEE Transactions on Robotics}, 
+  title={AVOCADO: Adaptive Optimal Collision Avoidance Driven by Opinion}, 
+  year={2025},
+  volume={41},
+  number={},
+  pages={2495-2511},
+  doi={10.1109/TRO.2025.3552350}}
+
 ```
 
 ### Attribution
