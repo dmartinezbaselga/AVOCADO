@@ -401,22 +401,12 @@ namespace RVO {
 				line.direction = Vector2(unitW.y(), -unitW.x());
 				u = (combinedRadius * invTimeStep - wLength) * unitW;
 			}
-			// double alpha = const_alpha_;
-			// if (const_alpha_ > 1.){
-			// 	alpha = std::max(0.0, std::min(1.0, (alphas_[other->id_].alpha + 1)*0.5));
-			// 	alphas_[other->id_].u = u;
-			// }
-			// if (false and (alpha < 0 && w*u < -1e-6)){
-			// 	alpha = -alpha;
-			// }
-			// printf("Alpha: %f\n", alpha);
-			// line.point = velocity_ + alpha * u;
 			if (const_alpha_ <= 1. && const_alpha_ > 0.0){
 				line.point = velocity_ + const_alpha_ * u;
 				orcaLines_.push_back(line);
 				// printf("u: %f, %f\n", u.x(), u.y());
 			}
-			else{
+			else if (const_alpha_ > 1.0) {
 				line.point = velocity_ + (1 - std::max(0.0, std::min(1.0, (alphas_[other->id_].alpha + 1)*0.5))) * u;
 				alphas_[other->id_].u = u;
 				if (1 - std::max(0.0, std::min(1.0, (alphas_[other->id_].alpha + 1)*0.5)) > 0.0){
