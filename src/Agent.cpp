@@ -66,8 +66,8 @@ namespace RVO {
 						tau = INFINITY;
 					}
 					else{
-						tau = (-b - sqrt(root))/2*a;
-						if (tau < -1e-6 && ((-b + sqrt(root))/2*a > 0)){
+						tau = (-b - sqrt(root))/(2*a);
+						if (tau < -1e-6 && ((-b + sqrt(root))/(2*a) > 0)){
 							// The robot is in collision
 							tau = 1e-6;
 						}
