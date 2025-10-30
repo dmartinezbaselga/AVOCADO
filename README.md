@@ -84,6 +84,8 @@ AVOCADO builds on the RVO2 Library:
 ### Acknowledge
 This work uses [ORCA Python bindings](https://github.com/sybrenstuvel/Python-RVO2). The authors are thankful for their work and for making it available.
 
+This work was supported in part by MICIU/AEI/10.13039/501100011033, ERDF/EU,in part by the European Union NextGenerationEU/PRTR and ESF Investing in your future under Grant PID2022-139615OB-I00, Grant PID2021-125514NB-I00, Grant ID2021-124137OB-I00, Grant TED2021-130224B-I00, Grant PRE2020-094415, Grant FPU19-05700, in part by the Government of Aragón under Grant DGA T45-23R, in part by the ONR Global under Grant N62909-24-1-2081. 
+
 ### Licensing
 This project uses a dual-licensing structure:
 1. **Apache License 2.0**:
