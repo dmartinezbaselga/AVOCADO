@@ -4,6 +4,9 @@ This repo provides the code of the work for out paper AVOCADO: Adaptive Optimal 
 
 ## [PAPER](https://arxiv.org/pdf/2407.00507) || [VIDEO](https://youtu.be/zOq-3si8K5Q) || [HARDWARE EXPERIMENTS VIDEO](https://youtu.be/hib4Tbsfc30)
 
+## Poster
+<img src="doc/poster.png" width="1000" />
+
 ## Abstract
 
 We present AVOCADO (AdaptiVe Optimal Collision Avoidance Driven by Opinion), a novel navigation approach to address holonomic robot collision avoidance when the robot does not know how cooperative the other agents in the environment are. AVOCADO departs from a Velocity Obstacle's (VO) formulation akin to the Optimal Reciprocal Collision Avoidance method. However, instead of assuming reciprocity, it poses an adaptive control problem to adapt to the cooperation level of other robots and agents in real time. This is achieved through a novel nonlinear opinion dynamics design that relies solely on sensor observations. As a by-product, we leverage tools from the opinion dynamics formulation to naturally avoid the deadlocks in geometrically symmetric scenarios that typically suffer VO-based planners.
